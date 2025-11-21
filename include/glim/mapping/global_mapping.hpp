@@ -5,10 +5,13 @@
 #include <random>
 #include <glim/mapping/global_mapping_base.hpp>
 
-namespace gtsam {
-class Values;
-class NonlinearFactorGraph;
-}  // namespace gtsam
+#include <gtsam/nonlinear/Values.h>
+#include <gtsam/nonlinear/NonlinearFactorGraph.h>
+
+// namespace gtsam {
+// class Values;
+// class NonlinearFactorGraph;
+// }  // namespace gtsam
 
 namespace gtsam_points {
 class ISAM2Ext;

@@ -4,16 +4,21 @@
 #include <glim/odometry/estimation_frame.hpp>
 #include <glim/mapping/sub_map.hpp>
 
+
+#include <gtsam/nonlinear/Values.h>
+#include <gtsam/nonlinear/NonlinearFactorGraph.h>
+
 #ifdef GLIM_USE_OPENCV
 namespace cv {
 class Mat;
 }
 #endif
 
-namespace gtsam {
-class Values;
-class NonlinearFactorGraph;
-}  // namespace gtsam
+
+// namespace gtsam {
+// class Values;
+// class NonlinearFactorGraph;
+// }  // namespace gtsam
 
 namespace gtsam_points {
 class ISAM2Ext;

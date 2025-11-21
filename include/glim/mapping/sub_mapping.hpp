@@ -6,11 +6,15 @@
 #include <memory>
 #include <glim/mapping/sub_mapping_base.hpp>
 
-namespace gtsam {
-class Values;
-class NonlinearFactorGraph;
-class PreintegratedImuMeasurements;
-}  // namespace gtsam
+
+#include <gtsam/nonlinear/Values.h>
+#include <gtsam/nonlinear/NonlinearFactorGraph.h>
+
+
+// namespace gtsam {
+// class Values;
+// class NonlinearFactorGraph;
+// }  // namespace gtsam
 
 namespace glim {
 

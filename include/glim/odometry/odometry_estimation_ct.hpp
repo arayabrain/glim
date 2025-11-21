@@ -6,9 +6,10 @@
 
 #include <glim/odometry/odometry_estimation_base.hpp>
 
-namespace gtsam {
-class Values;
-}
+#include <gtsam/nonlinear/Values.h>
+// namespace gtsam {
+// class Values;
+// }
 
 namespace gtsam_points {
 struct FlatContainer;

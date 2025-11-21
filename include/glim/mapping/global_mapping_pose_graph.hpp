@@ -8,11 +8,16 @@
 #include <glim/util/concurrent_vector.hpp>
 #include <glim/mapping/global_mapping_base.hpp>
 
-namespace gtsam {
-class Values;
-class NonlinearFactor;
-class NonlinearFactorGraph;
-}  // namespace gtsam
+#include <gtsam/nonlinear/Values.h>
+#include <gtsam/nonlinear/NonlinearFactorGraph.h>
+#include <gtsam/nonlinear/NonlinearFactor.h>
+
+
+// namespace gtsam {
+// class Values;
+// class NonlinearFactor;
+// class NonlinearFactorGraph;
+// }  // namespace gtsam
 
 namespace gtsam_points {
 class ISAM2Ext;

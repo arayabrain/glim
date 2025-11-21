@@ -5,13 +5,16 @@
 #include <random>
 
 #include <glim/odometry/odometry_estimation_base.hpp>
+#include <gtsam/navigation/ImuFactor.h>
+#include <gtsam/nonlinear/Values.h>
+#include <gtsam/nonlinear/NonlinearFactorGraph.h>
 
-namespace gtsam {
-class Pose3;
-class Values;
-class ImuFactor;
-class NonlinearFactorGraph;
-}  // namespace gtsam
+// namespace gtsam {
+// class Pose3;
+// class Values;
+// class ImuFactor;
+// class NonlinearFactorGraph;
+// }  // namespace gtsam
 
 namespace gtsam_points {
 class IncrementalFixedLagSmootherExt;
